@@ -2,19 +2,20 @@
 
 Avetol is All your Entertainment in one place. It's an Ethiopian streaming app. This app contains the landing page of a conceptual UI design.
 
-![Screenshot 1](screenshots/image_1.jpg){: width="100px"  }
-![Screenshot 2](screenshots/image_2.jpg){: width="100px" }
-![Screenshot 3](screenshots/image_3.jpg){: width="100px" }
+<img src="screenshots/image_1.jpg" width="100" />
+<img src="screenshots/image_2.jpg" width="100" />
+<img src="screenshots/image_3.jpg" width="100" />
+
 
 ## Folder Structure
 
 I used clean architecture for implementation:
 
 lib
-    - core : for shared utils files
-    - features
-        - data : local data source and movie models, for generating dummy movie data
-        - presentation : normal UI pages and widgets
+    - core : for shared utils files <br>
+    - features<br>
+        - data : local data source and movie models, for generating dummy movie data<br>
+        - presentation : normal UI pages and widgets<br>
 
 ## Used Libraries and Packages 
 
