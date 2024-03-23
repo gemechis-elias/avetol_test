@@ -2,9 +2,12 @@
 
 Avetol is All your Entertainment in one place. It's an Ethiopian streaming app. This app contains the landing page of a conceptual UI design.
 
-<img src="screenshots/image_1.jpg" width="100" />
-<img src="screenshots/image_2.jpg" width="100" />
-<img src="screenshots/image_3.jpg" width="100" />
+<div style="display: flex;">
+  <img src="screenshots/image_1.jpg" width="200" />
+  <img src="screenshots/image_2.jpg" width="200" />
+  <img src="screenshots/image_3.jpg" width="200" />
+</div>
+
 
 
 ## Folder Structure
