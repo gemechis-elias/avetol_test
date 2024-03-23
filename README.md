@@ -14,11 +14,13 @@ Avetol is All your Entertainment in one place. It's an Ethiopian streaming app. 
 
 I used clean architecture for implementation:
 
+```
 lib
     - core : for shared utils files <br>
     - features<br>
         - data : local data source and movie models, for generating dummy movie data<br>
         - presentation : normal UI pages and widgets<br>
+```
 
 
 ## Used Libraries and Packages 
