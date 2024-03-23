@@ -38,6 +38,7 @@ class _HomePageState extends State<HomePage> {
       isLoading = true;
     });
 
+    // SHOW LOADING EFFECT AND WAIT FOR 2 SECONDS
     await Future.delayed(const Duration(seconds: 2));
     setState(() {
       movies = LocalDataSources().getMovies();
@@ -56,12 +57,12 @@ class _HomePageState extends State<HomePage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
+              // Featured Movies
               isLoading
                   ? const FeaturedPlaceHolder()
                   : FeaturedMovies(
                       movies:
                           movies.where((movie) => movie.isFeatured).toList()),
-
               // Continue Watching
               isLoading
                   ? Container(child: placeholderList(context))
@@ -90,6 +91,7 @@ class _HomePageState extends State<HomePage> {
 
               const Advertisement(ad_banner: 'assets/images/ad_banner.jpg'),
 
+              // Avetol Shows
               isLoading
                   ? Container(child: placeholderList(context))
                   : AvetolShows(
@@ -97,6 +99,7 @@ class _HomePageState extends State<HomePage> {
                           .where((movie) => movie.category == 'Avetol Shows')
                           .toList()),
 
+              // Avetol Live Channels
               AvetolLiveChannels(
                   movies: movies
                       .where(

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:skeletons/skeletons.dart';
 
-import 'features/presentation/pages/bottom_navigation.dart';
+import 'features/presentation/pages/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,14 +34,15 @@ class MyApp extends StatelessWidget {
         tileMode: TileMode.clamp,
       ),
       child: MaterialApp(
-        title: 'Flutter Demo',
+        title: 'Avetol Movies',
+        themeMode: ThemeMode.dark,
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(
               seedColor: const Color.fromARGB(255, 37, 146, 255)),
           useMaterial3: true,
         ),
-        home: const HomeBottomNav(),
+        home: const SplashScreen(),
       ),
     );
   }

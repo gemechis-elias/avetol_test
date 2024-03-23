@@ -16,10 +16,10 @@ I used clean architecture for implementation:
 
 ```
 lib
-    - core : for shared utils files <br>
-    - features<br>
-        - data : local data source and movie models, for generating dummy movie data<br>
-        - presentation : normal UI pages and widgets<br>
+    - core : for shared utils files 
+    - features
+        - data : local data source and movie models, for generating dummy movie data
+        - presentation : normal UI pages and widgets
 ```
 
 
