@@ -20,6 +20,7 @@ lib
         - data : local data source and movie models, for generating dummy movie data<br>
         - presentation : normal UI pages and widgets<br>
 
+
 ## Used Libraries and Packages 
 
 1. carousel_slider: ^4.2.1 - for smooth slider 
